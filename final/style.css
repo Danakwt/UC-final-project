@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+/* body{
+  background: #5d5c5a;
+} */
+section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+section:nth-child(1){
+  color: #fffcf2;
+  }
+section:nth-child(2){
+  color: #fffcf2;
+  /* background: #a98467; */
+} 
+section:nth-child(3){
+  color: #fffcf2;
+}
+section:nth-child(4){
+  color: #fffcf2;
+  /* background: #a98467; */
+}
+section .container{
+  margin: 100px;
+}
+section h1{
+  font-size: 3rem;
+  margin: 20px;
+}
+section h2{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+section .text-container{
+   display: flex;
+}
+section .text-container .text-box{
+  margin: 20px;
+  padding: 20px;
+  
+  /* background: #fffcf2; */
+}
+section .text-container .text-box h3{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px){
+  section h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .text-container{
+    flex-direction: column;
+  }
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 100;
+  color: rgb(255, 255, 255);
+}
+
+/* body {
+    background-image: url('./images copy/horse.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  } */
+
+  .greeting{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+
+  .inv-text{
+    color: rgba(0, 0, 0, 0);
+  }
+
+  /* .club-page{
+    background-color: rgb(154, 154, 154);
+    margin: 0%;
+    width: 200%;} */
+  
+
+  .body2{
+    background-image: url('./images copy/horse.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+  body{
+    background-color: black;
+  }
+    .club2{
+    /* background-color:rgba(255, 255, 255, 0.656); */ 
+    height: 100vh;
+    background-color: #001d3d;
+    
+  
+    /* align-items: center;
+    display: flex; */
+    
+  }  
+  /* .club-page{
+    background-color: darkgray;
+    height: 10vh;
+  } */
+
+  .animate__animated{
+    /* color: rgb(45, 96, 141); */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    display: flex;
+    margin: 70px;
+    font-style: oblique;
+    font-size: 70px;
+    color: #fff;
+    
+    
+  }
+
+
+  .containerv {
+position: relative;
+width: 100vw;
+align-items: center;
+margin-right: 0%;
+margin-bottom: 0%;
+/* margin-left: 111px; */
+/* border-radius: 30px; */
+
+}
+
+video {
+  width: 100vw;
+  align-items: center;
+  margin-bottom: 0%;
+  /* border-radius: 30px; */
+}
+
+.title {
+position: absolute;
+inset: 0;
+display: grid;
+place-items:
+center;
+background-color:#001d3df6;
+opacity: 0.9;
+color: #fff;
+font-weight: 900;
+font-size: 100px;
+/* font-family: sans-serif; */
+font-family: 'Times New Roman', Times, serif;
+mix-blend-mode: multiply;
+user-select: none;
+/* border-radius: 30px; */
+text-align: center;
+margin-bottom: 0%;}
+
+.suppliers{
+  /* background-color: rgb(253, 252, 253); */ 
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 30px;
+  
+} 
+/* .suppliers2{
+  background-color: #a9a8a2;
+  height: 100px;
+  margin: 0px;
+  padding: 30px;
+  font-style: oblique;
+  border-radius: 40px;
+} */
+
+.card{
+ margin: 90px;
+ height: 100%;
+ align-items: center;
+ border-radius: 40px;
+
+}
+
+.card-img-top{
+  border-radius: 30px;
+}
+
+.suppliers3{
+  background-color: #a9a8a2;
+  height: 100px;
+  padding: 30px;
+  font-style: oblique;
+  
+}
+
+.test{
+  /* background-color: #E6E3DC; */
+  /* margin: 900px; */
+  padding: 30px;
+  /* width:1500px; */
+  height: 100%;
+   background-color: #001d3df6; 
+  
+}
+.rsik{
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+} 
+
+.sectiontst{
+  /* background-color: #001d3d; */
+  background-color: #001d3df6; 
+  
+}
+
+.btn {
+  background-color: #243150;
+  border-bottom: #243150;
+  color: #243150;
+}
+
+.botton{
+  color: #fff;
+  
+}
